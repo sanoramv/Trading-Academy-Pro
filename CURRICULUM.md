@@ -7,7 +7,9 @@ cross-reference IDs used inside lessons (`[module.lesson]`, e.g. `[10.03]`).
 > **Note:** This file is the *planning* map (what should exist and in what
 > order). For the *generated, linkable* table of contents — every file that
 > now actually exists, with reading time, difficulty, and prerequisites —
-> see **[`INDEX.md`](INDEX.md)** instead.
+> see **[`INDEX.md`](INDEX.md)** instead. For the *dependency graph* — what
+> each lesson requires, what it connects to, and what it's commonly
+> misunderstood as — see **[`KNOWLEDGE_GRAPH.md`](KNOWLEDGE_GRAPH.md)**.
 
 Status legend: `[ ]` planned · `[x]` generated · `[~]` generated, needs revision
 

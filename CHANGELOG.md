@@ -5,6 +5,37 @@ Format loosely follows [Keep a Changelog](https://keepachangelog.com/).
 
 ## [Unreleased]
 
+### 2026-08-05 — Added KNOWLEDGE_GRAPH.md: full concept dependency graph
+- Added `KNOWLEDGE_GRAPH.md` at repository root — for every one of the 270
+  core lessons (Modules 01-31): Prerequisites, Related Topics, Next Topic,
+  Advanced Topics, and a one-line Key Misconception, plus a Mermaid diagram
+  per module (31 diagrams) and one module-level master Mermaid diagram
+  covering all 40 modules.
+- All fields extracted programmatically from each lesson's own
+  `## Prerequisites`, `## Next Lesson`, and `## Misconceptions` sections —
+  not hand-typed. "Related Topics" comes from `[XX.YY]` cross-references the
+  lesson body itself makes outside its Prerequisites/Next sections (falling
+  back to nearest same-module lessons only where a lesson makes none).
+  "Advanced Topics" is computed by reversing the prerequisite graph: lessons
+  that list this one as a prerequisite, excluding whichever is already the
+  Next Topic.
+- Modules 32-40 (the support layer) are documented separately as a
+  qualitative dependency chain rather than lesson-by-lesson, since they use
+  reference/assessment formats without the `XX.YY` prerequisite structure —
+  consistent with how their own `_Index.md` files already describe them.
+- Added a "Recurring Threads" section identifying concepts that resurface
+  across many modules (risk management, order mechanics, volatility,
+  Wyckoff/Smart Money/ICT) rather than staying confined to one module.
+- Validated: all 33 Mermaid code fences balanced, all 270 lesson file links
+  resolve, all `[XX.YY]` citations resolve to a real lesson ID, all 270
+  lessons appear in exactly one module table (zero missing, zero duplicated).
+- File is 1,999 lines — within the 2,000-line maintainer guideline despite
+  covering all 270 lessons across 5 relationship dimensions each, achieved
+  by compressing simple linear prerequisite chains into single Mermaid
+  chain-arrows (`A --> B --> C`) instead of one edge line per step.
+- Cross-linked from `README.md`'s "How to Use This Repository" and
+  `CURRICULUM.md`'s header, alongside the existing `INDEX.md` link.
+
 ### 2026-08-05 — Added INDEX.md: complete, generated table of contents
 - Added `INDEX.md` at repository root — a single reference covering all
   270 core lessons (Modules 01-31) plus all 116 files in the support

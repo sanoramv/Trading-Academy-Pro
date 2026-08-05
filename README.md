@@ -33,10 +33,14 @@ Markdown lesson, following one consistent, rigorous template (see
    every lesson, quiz, cheat sheet, flashcard deck, case study, worksheet, and
    glossary entry, each with its estimated reading time, difficulty level, and
    prerequisites, so you can jump straight to what you need.
-4. Copy `progress_tracker/STUDENT_PROGRESS_TEMPLATE.md` and `market_journal/JOURNAL_TEMPLATE.md`
+4. Use **[`KNOWLEDGE_GRAPH.md`](KNOWLEDGE_GRAPH.md)** to see how concepts
+   connect — every lesson's prerequisites, related topics, next topic,
+   advanced follow-ons, and the single most common misconception it corrects,
+   with a Mermaid diagram for every module.
+5. Copy `progress_tracker/STUDENT_PROGRESS_TEMPLATE.md` and `market_journal/JOURNAL_TEMPLATE.md`
    for your own copy to track your journey.
-5. Work module by module. Do the quiz and homework before moving on.
-6. If you're using this with an AI tutor, point it at `MASTER_SKILL.md` first —
+6. Work module by module. Do the quiz and homework before moving on.
+7. If you're using this with an AI tutor, point it at `MASTER_SKILL.md` first —
    that file defines how it should teach you.
 
 ## Repository Structure

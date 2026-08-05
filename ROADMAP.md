@@ -70,6 +70,11 @@ progress table shows 100%.
   41 findings, 0 Critical). `INDEX.md` added — a generated, complete table of
   contents (every lesson/quiz/cheat sheet/case study/worksheet/glossary entry,
   with reading time, difficulty, and prerequisites).
+- **2026-08-05:** `KNOWLEDGE_GRAPH.md` added — the full concept dependency
+  graph for all 270 core lessons (prerequisites, related topics, next topic,
+  advanced follow-ons, key misconception) plus a module-level Mermaid map and
+  31 per-module lesson-level Mermaid diagrams. Generated from lesson source,
+  not hand-authored — see `CHANGELOG.md` for methodology and validation.
 
 ## Post-v1.0 — Maintenance Phase (ongoing)
 As of 2026-08-05, the repository is in **maintenance mode**: the
