@@ -75,6 +75,11 @@ progress table shows 100%.
   advanced follow-ons, key misconception) plus a module-level Mermaid map and
   31 per-module lesson-level Mermaid diagrams. Generated from lesson source,
   not hand-authored — see `CHANGELOG.md` for methodology and validation.
+- **2026-08-05:** `STUDY_PLAN.md` and four detail files
+  (`STUDY_PLAN_30_DAY.md`/`_90_DAY.md`/`_180_DAY.md`/`_365_DAY.md`) added —
+  day-by-day calendars pacing all 270 core lessons against a full-time-job
+  availability profile, with weekly tests, monthly exams, and revision days
+  every week without exception. See `CHANGELOG.md` for pacing methodology.
 
 ## Post-v1.0 — Maintenance Phase (ongoing)
 As of 2026-08-05, the repository is in **maintenance mode**: the

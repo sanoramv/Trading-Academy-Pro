@@ -9,7 +9,9 @@ cross-reference IDs used inside lessons (`[module.lesson]`, e.g. `[10.03]`).
 > now actually exists, with reading time, difficulty, and prerequisites —
 > see **[`INDEX.md`](INDEX.md)** instead. For the *dependency graph* — what
 > each lesson requires, what it connects to, and what it's commonly
-> misunderstood as — see **[`KNOWLEDGE_GRAPH.md`](KNOWLEDGE_GRAPH.md)**.
+> misunderstood as — see **[`KNOWLEDGE_GRAPH.md`](KNOWLEDGE_GRAPH.md)**. For
+> a literal day-by-day calendar with weekly tests and monthly exams, see
+> **[`STUDY_PLAN.md`](STUDY_PLAN.md)**.
 
 Status legend: `[ ]` planned · `[x]` generated · `[~]` generated, needs revision
 

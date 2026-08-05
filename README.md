@@ -37,10 +37,14 @@ Markdown lesson, following one consistent, rigorous template (see
    connect — every lesson's prerequisites, related topics, next topic,
    advanced follow-ons, and the single most common misconception it corrects,
    with a Mermaid diagram for every module.
-5. Copy `progress_tracker/STUDENT_PROGRESS_TEMPLATE.md` and `market_journal/JOURNAL_TEMPLATE.md`
+5. If you want a literal day-by-day calendar instead of self-pacing, use
+   **[`STUDY_PLAN.md`](STUDY_PLAN.md)** — 30/90/180/365-day tracks with
+   weekly tests, monthly exams, and revision days built in, calibrated to a
+   full-time job (60-90 min weekdays, 3-4 hrs weekends).
+6. Copy `progress_tracker/STUDENT_PROGRESS_TEMPLATE.md` and `market_journal/JOURNAL_TEMPLATE.md`
    for your own copy to track your journey.
-6. Work module by module. Do the quiz and homework before moving on.
-7. If you're using this with an AI tutor, point it at `MASTER_SKILL.md` first —
+7. Work module by module. Do the quiz and homework before moving on.
+8. If you're using this with an AI tutor, point it at `MASTER_SKILL.md` first —
    that file defines how it should teach you.
 
 ## Repository Structure

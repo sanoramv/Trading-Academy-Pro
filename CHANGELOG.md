@@ -5,6 +5,42 @@ Format loosely follows [Keep a Changelog](https://keepachangelog.com/).
 
 ## [Unreleased]
 
+### 2026-08-05 — Added STUDY_PLAN.md: 30/90/180/365-day pacing tracks
+- Added `STUDY_PLAN.md` (overview, shared day template, assumptions) plus
+  four detail files — `STUDY_PLAN_30_DAY.md` (Beginner), `_90_DAY.md`
+  (Intermediate), `_180_DAY.md` (Professional), `_365_DAY.md` (Mastery) —
+  giving a literal day-by-day calendar through the academy, calibrated to
+  60-90 min/weekday and 3-4 hrs/weekend.
+- Pacing is generated, not hand-typed: all 270 core lessons are consumed in
+  `CURRICULUM.md`/`INDEX.md` order (the academy's verified prerequisite
+  order — zero circular dependencies per `AUDIT_REPORT.md`) at 1 lesson per
+  weekday and 2 (30/90-day) or 3 (180/365-day) lessons per Saturday, using
+  each lesson's real reading time. Resulting coverage: 30-day reaches
+  `[04.01]` (29 lessons), 90-day reaches `[10.07]` (89 lessons), 180-day
+  reaches `[24.02]` (204 lessons), 365-day completes all 270 core lessons
+  and then runs a Post-Core Mastery/Practice phase (Daily Analysis, Practice
+  Drills, spaced flashcard review, Case Study re-analysis, Capstone Project
+  sessions) for the remainder of the year.
+- **Every Sunday is a Revision Day with no new lessons — zero exceptions,
+  by construction** (the day-assignment logic never places a new lesson on
+  day-of-week 7). Every 4th Sunday is upgraded to a cumulative Monthly Exam
+  (Module 37 Assessment). Each plan's final day is always a Final Review +
+  Capstone Assessment regardless of where it falls in the weekly cycle.
+- Every day's Exercises/Quiz/Homework fields reference that lesson's own
+  Core Concepts example, Quiz, and Homework sections rather than inventing
+  parallel content — the plan schedules the existing curriculum, it doesn't
+  duplicate it.
+- Flagged an honest scope gap in the 180-Day Professional plan: it does not
+  reach Module 25 (Risk Management) before its 180 days are up. Documented
+  in `STUDY_PLAN.md` with a pointer to fast-track Module 25 (its only hard
+  prerequisite is Module 01) or use the 365-Day plan instead.
+- Validated: all file links across all 5 files resolve, every `[XX.YY]`
+  citation resolves to a real lesson ID, every table row has the expected
+  column count. Largest file (`STUDY_PLAN_365_DAY.md`) is 736 lines — all
+  five files are well within the 2,000-line cap.
+- Cross-linked from `README.md`'s "How to Use This Repository" and
+  `CURRICULUM.md`'s header, alongside `INDEX.md` and `KNOWLEDGE_GRAPH.md`.
+
 ### 2026-08-05 — Added KNOWLEDGE_GRAPH.md: full concept dependency graph
 - Added `KNOWLEDGE_GRAPH.md` at repository root — for every one of the 270
   core lessons (Modules 01-31): Prerequisites, Related Topics, Next Topic,
