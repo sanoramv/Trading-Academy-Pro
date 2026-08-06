@@ -5,6 +5,31 @@ Format loosely follows [Keep a Changelog](https://keepachangelog.com/).
 
 ## [Unreleased]
 
+### 2026-08-06 — Added ASSET_PLAN.md: prioritized visual-asset backlog
+- Added `ASSET_PLAN.md` — for all 270 core lessons, identifies which of 8
+  asset types (Flowchart, Timeline Diagram, Infographic, Decision Tree,
+  Candlestick Illustration, Option Payoff Diagram, Market Structure
+  Diagram, Order Flow Diagram) a *produced* graphical asset would add value
+  beyond the ASCII diagram every lesson already has. 393 backlog items
+  total (most lessons produced one, some two).
+- Planning only, as explicitly requested — **no images, diagrams, or
+  illustration files were created**.
+- Scoring is auditable, not a black box: each item records its **Signal**
+  (which module-affinity and/or title-keyword match triggered it) and a
+  **Score** = `type_weight × 10 + downstream_reuse_count × 3 +
+  foundational_bonus`, where `downstream_reuse_count` reuses the same
+  reverse-prerequisite computation `KNOWLEDGE_GRAPH.md`'s "Advanced Topics"
+  column already validated.
+- Items are grouped into 4 priority tiers (P0-Critical/P1-High/P2-Medium/
+  P3-Low, the same convention `AUDIT_REPORT.md` uses) by score quantile:
+  81/78/138/96 items respectively.
+- Validated: all 270 lessons appear at least once, all file links and
+  `[XX.YY]` citations resolve, all table rows well-formed. File is 621
+  lines — well within the 2,000-line cap.
+- Cross-linked from `CONTRIBUTING.md` (new "Visual Assets" section covering
+  how to pick up a backlog item) and `CURRICULUM.md`'s header, alongside
+  `INDEX.md`, `KNOWLEDGE_GRAPH.md`, and `STUDY_PLAN.md`.
+
 ### 2026-08-05 — Added STUDY_PLAN.md: 30/90/180/365-day pacing tracks
 - Added `STUDY_PLAN.md` (overview, shared day template, assumptions) plus
   four detail files — `STUDY_PLAN_30_DAY.md` (Beginner), `_90_DAY.md`

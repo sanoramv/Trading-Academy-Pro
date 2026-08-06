@@ -80,6 +80,10 @@ progress table shows 100%.
   day-by-day calendars pacing all 270 core lessons against a full-time-job
   availability profile, with weekly tests, monthly exams, and revision days
   every week without exception. See `CHANGELOG.md` for pacing methodology.
+- **2026-08-06:** `ASSET_PLAN.md` added — a prioritized backlog of 393
+  produced-graphic candidates (8 asset types) across all 270 core lessons,
+  scored by module fit, title cues, and downstream reuse count. Planning
+  only — no assets were produced.
 
 ## Post-v1.0 — Maintenance Phase (ongoing)
 As of 2026-08-05, the repository is in **maintenance mode**: the

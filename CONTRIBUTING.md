@@ -104,3 +104,19 @@ done
 Per `MASTER_SKILL.md` rule 14, content is generated **one file at a time**.
 Do not batch-generate multiple lessons in a single pass — this preserves
 quality and lets `TODO.md`/`README.md` stay accurate after every step.
+
+## Visual Assets
+
+Every lesson already has a text-native ASCII diagram in its `## Core
+Concepts` section — that requirement is not new. `ASSET_PLAN.md` is a
+separate, prioritized backlog of *produced* graphical assets (real
+illustrations, not ASCII art) that would further improve specific lessons.
+It is planning only; no assets have been produced from it yet. If you pick
+up an item from that backlog:
+
+1. Check `KNOWLEDGE_GRAPH.md`'s Related/Advanced Topics for the lesson —
+   if other lessons need the same asset type, prefer one reusable template
+   over several near-duplicates.
+2. Mark the item done in `ASSET_PLAN.md` once produced (add a status column
+   if one doesn't exist yet).
+3. Log the addition in `CHANGELOG.md` like any other file change.
