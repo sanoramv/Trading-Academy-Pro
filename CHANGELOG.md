@@ -5,6 +5,36 @@ Format loosely follows [Keep a Changelog](https://keepachangelog.com/).
 
 ## [Unreleased]
 
+### 2026-08-07 — Added FACT_CHECK_REPORT.md: Chief Technical Editor content review
+- Added `FACT_CHECK_REPORT.md` — a factual review of all 270 core lessons
+  for incorrect statements, outdated information, oversimplified
+  explanations, unsourced claims, trading myths presented as fact,
+  statements needing nuance, and concepts needing caveats.
+- 34 findings, each with File, Section, exact verbatim sentence, why it's
+  problematic, a corrected version, and a confidence level (17 High, 2
+  Medium-High, 12 Medium, 4 Low-Medium, 2 Low), plus one non-categorized
+  editorial artifact (a stray `MASTER_SKILL.md` text leak in `28.08`).
+- Produced by 8 independent full-corpus read-throughs (one per module
+  cluster), each fact-checked against real-world financial/historical
+  knowledge and cross-verified where checkable (dates, formulas,
+  magnitudes). Findings were deliberately not padded — several clusters
+  reported as few as 3 genuine issues rather than forcing one per lesson.
+- Confirms and fully details 5 items the 2026-08-05 audit only flagged
+  briefly: SEBI Act timeline (AUDIT-041), Kelly Criterion's negative-edge
+  blind spot (AUDIT-035), Volmageddon VIX magnitude understated ~6x
+  (AUDIT-032), Citadel Securities founding year (AUDIT-040), and the
+  31.06 title/content mismatch (AUDIT-005).
+- Surfaced 2 cross-cutting patterns: an unsourced "US quantitative
+  researchers report..." phrase reused across 3 lessons in the
+  Wyckoff/Smart Money/ICT cluster, and the same understated S&P 500 GFC
+  recovery duration ("~4 years" vs. actual ~5.5 years) independently
+  appearing in two different lessons (`25.05` and `31.01`).
+- One genuinely new, previously undetected issue: NSE moved its F&O
+  expiry day from Thursday to Tuesday in September 2025, making two
+  Futures lessons (`20.03`, `20.06`) outdated.
+- **Read-only, as explicitly instructed — no lesson files were modified.**
+  Corrections remain proposed, not applied, pending separate authorization.
+
 ### 2026-08-06 — Added ASSET_PLAN.md: prioritized visual-asset backlog
 - Added `ASSET_PLAN.md` — for all 270 core lessons, identifies which of 8
   asset types (Flowchart, Timeline Diagram, Infographic, Decision Tree,

@@ -84,6 +84,12 @@ progress table shows 100%.
   produced-graphic candidates (8 asset types) across all 270 core lessons,
   scored by module fit, title cues, and downstream reuse count. Planning
   only — no assets were produced.
+- **2026-08-07:** `FACT_CHECK_REPORT.md` added — a Chief-Technical-Editor
+  content review of all 270 core lessons, 34 findings (incorrect
+  statements, outdated info, unsourced claims, myths-as-facts, missing
+  caveats), each with exact sentence, corrected version, and confidence
+  level. Confirms and deepens 5 items the 2026-08-05 audit only flagged
+  briefly. Read-only — no lesson content was changed.
 
 ## Post-v1.0 — Maintenance Phase (ongoing)
 As of 2026-08-05, the repository is in **maintenance mode**: the
