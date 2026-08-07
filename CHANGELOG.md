@@ -5,6 +5,34 @@ Format loosely follows [Keep a Changelog](https://keepachangelog.com/).
 
 ## [Unreleased]
 
+### 2026-08-07 — Added REFERENCES.md: authoritative sources cross-linked to every lesson
+- Added `REFERENCES.md` — for every one of the 270 core lessons, its
+  recommended further reading organized by 14 requested source types
+  (Books, Academic papers, SEBI, NSE, BSE, RBI, Federal Reserve, CME,
+  CBOE, SEC, BIS, IMF, World Bank, Investopedia), plus a 15th "Other
+  Practitioner & Data Resources" bucket for real cited sources
+  (TradingView, StockCharts, CRISIL/ICRA, etc.) that don't fit the 14.
+- **No reference was invented.** Every citation was extracted directly
+  from each lesson's own existing `## Further Reading` section (569
+  citations total, sorted into 314 distinct sources) — this file
+  organizes and cross-links material the curriculum already vetted, it
+  does not add new sources. Fixed an extraction bug along the way where
+  multi-line Further Reading bullets were being truncated to their first
+  line; re-extracted with the full text preserved.
+- Structure: Part 1 is a Master Source Directory (one entry per
+  regulator/exchange with its real, well-known domain — e.g. sebi.gov.in,
+  nseindia.com, rbi.org.in — plus deduped Books and Academic Papers
+  lists); Part 2 is a per-module, per-lesson table of exactly which of
+  those sources each lesson cites.
+- One lesson, `[04.06]` Correlation Between Global Markets, cites no
+  external source in its own Further Reading (only cross-module
+  references) — its entry says so explicitly rather than inventing one.
+- Validated: all 270 lessons appear exactly once, all file links resolve,
+  zero broken citations. File is 677 lines — well within the 2,000-line
+  cap.
+- Cross-linked from `CURRICULUM.md`'s header alongside `INDEX.md`,
+  `KNOWLEDGE_GRAPH.md`, `STUDY_PLAN.md`, and `ASSET_PLAN.md`.
+
 ### 2026-08-07 — Fixed all 16 lowest-scoring (5-6/10) PEDAGOGICAL_REVIEW.md lessons
 - Applied the specific recommended improvement to every lesson
   `PEDAGOGICAL_REVIEW.md` scored 5-6/10:

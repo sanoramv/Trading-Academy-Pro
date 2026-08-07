@@ -104,6 +104,12 @@ progress table shows 100%.
   the lesson previously stated a formula without computing it (see
   `CHANGELOG.md` for the complete per-lesson list). `PEDAGOGICAL_REVIEW.md`
   updated with a remediation-status note.
+- **2026-08-07:** `REFERENCES.md` added — every one of the 270 core
+  lessons cross-linked to its recommended further reading, organized by
+  source type (Books, Academic papers, SEBI, NSE, BSE, RBI, Federal
+  Reserve, CME, CBOE, SEC, BIS, IMF, World Bank, Investopedia). Extracted
+  entirely from each lesson's own existing `## Further Reading` section —
+  no reference was invented.
 
 ## Post-v1.0 — Maintenance Phase (ongoing)
 As of 2026-08-05, the repository is in **maintenance mode**: the
