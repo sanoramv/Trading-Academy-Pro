@@ -145,7 +145,8 @@ agent should:
   > loss. Past performance does not guarantee future results.*
 - **Numbers must be sourced or clearly hypothetical.** Historical examples must
   reference real, dated, verifiable events (e.g., "2008 Global Financial Crisis,"
-  "2004 Indian election result crash," "May 2022 IndusInd Bank episode"). Illustrative
+  "2004 Indian election result crash," "January 2023 Adani Group–Hindenburg
+  Report episode"). Illustrative
   numeric examples not tied to real data must be labeled "Hypothetical Example."
 - **Diagrams are text-native.** Use ASCII art and Markdown tables/mermaid-style
   flowcharts so lessons render correctly in plain Markdown viewers and GitHub.

@@ -4,6 +4,13 @@
 **Audit date:** 2026-08-05
 **Scope:** Full repository — 40 modules, 373 files under `docs/`, plus root governance documents (`MASTER_SKILL.md`, `CURRICULUM.md`, `ROADMAP.md`, `CONTRIBUTING.md`, `README.md`, `TODO.md`, `CHANGELOG.md`)
 **Files modified by this audit:** None. This report is the only file created, as instructed.
+**Remediation status (2026-08-07):** AUDIT-005, AUDIT-032, AUDIT-035, and
+AUDIT-040 have since been fixed — see `FACT_CHECK_REPORT.md`'s FACT-034,
+FACT-028, FACT-031, and FACT-032 for the corrected text and confidence
+ratings applied. AUDIT-041 (SEBI Act timing, in `31.03`) remains open; a
+related but distinct SEBI Act timing issue in a different lesson
+(`03_Indian_Market/03.01`) was also found by the fact-check pass
+(FACT-003) and remains open pending a Medium-confidence remediation pass.
 
 ## Methodology
 

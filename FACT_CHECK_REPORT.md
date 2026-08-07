@@ -5,6 +5,25 @@
 > below is a *proposed* correction, not an applied one. Nothing in
 > `docs/` has changed as a result of this document existing.
 
+## Remediation Status (2026-08-07)
+
+All **14 High-confidence findings**, plus the non-categorized editorial
+artifact, have been **fixed** in the lesson files: FACT-002, FACT-004,
+FACT-008, FACT-011, FACT-022, FACT-024, FACT-025, FACT-027, FACT-028,
+FACT-029, FACT-031, FACT-032, FACT-033, FACT-034, and the `28.08` editorial
+note. Each fix also propagated to every other place in the repository that
+repeated the same error (e.g., FACT-024/025's NSE expiry-day change was
+corrected in every ASCII diagram, quiz, and revision-notes bullet across
+both affected files, not just the one quoted sentence per finding; FACT-034's
+title fix was propagated to `KNOWLEDGE_GRAPH.md`, `INDEX.md`, `ASSET_PLAN.md`,
+`STUDY_PLAN_365_DAY.md`, `CURRICULUM.md`, `31.05`'s Next Lesson link, and
+`MASTER_SKILL.md`'s own example citation — without renaming the underlying
+file, to avoid breaking the 1,200+ existing links that reference its path).
+Medium-confidence-and-below findings (FACT-001, FACT-003, FACT-005 through
+FACT-021 except those listed above, FACT-023, FACT-026, FACT-030) **remain
+open**, pending a separate remediation pass. See `CHANGELOG.md`'s
+2026-08-07 fix entry for the full list and validation results.
+
 ## Methodology
 
 All 270 core lessons (Modules 01–31) were read in full — not sampled, not

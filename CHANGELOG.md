@@ -5,6 +5,36 @@ Format loosely follows [Keep a Changelog](https://keepachangelog.com/).
 
 ## [Unreleased]
 
+### 2026-08-07 — Fixed all 14 High-confidence FACT_CHECK_REPORT.md findings
+- Corrected 14 High-confidence factual issues across 12 lesson files, plus
+  one non-categorized editorial artifact, all identified by the same-day
+  `FACT_CHECK_REPORT.md` review:
+  - **FACT-002** — `02.04`: Nifty 18,000 breakout redated Dec 2022 (was "late 2023").
+  - **FACT-004** — `01.06`: Zomato IPO proceeds correctly split between the ₹9,000cr fresh issue (to Zomato) and ₹375cr OFS (to Info Edge).
+  - **FACT-008** — `07.08`: goodwill no longer described as amortized (impairment-tested instead), in both the Definition and US Market Example.
+  - **FACT-011** — `09.03`: WACC definition now specifies after-tax cost of debt.
+  - **FACT-022** — `19.04`: OTE/Fibonacci empirical-support claim corrected to match the 2022 *Expert Systems with Applications* finding of no standalone edge.
+  - **FACT-024/FACT-025** — `20.03`, `20.06`: NSE's September 2025 F&O expiry-day change (Thursday → Tuesday) corrected everywhere it appeared — definitions, ASCII diagrams, flowcharts, revision notes, flashcards, and the quiz Q&A in both files (13 total instances).
+  - **FACT-027** — `23.02`: removed the anachronistic 2004-election India-VIX claim (VIX launched 2008); replaced with the 2019 election example.
+  - **FACT-028** — `23.06`: Volmageddon VIX spike corrected from "~20%" to the verified ~116% (17.31→37.32).
+  - **FACT-029** — `25.02`: added the stop-loss slippage/gap-risk caveat to the Definition, Common Mistakes, Key Takeaways, Revision Notes, Learning Objectives, and Flashcards (6 instances) — risk-per-trade is now framed as *intended*, not guaranteed, loss.
+  - **FACT-031** — `26.04`: added the Kelly Criterion's negative/mis-estimated-edge behavior (guaranteed long-run capital destruction, not just lower returns).
+  - **FACT-032** — `30.06`: Citadel Securities founding year corrected 1999 → 2002, in both the Historical Example and Revision Notes.
+  - **FACT-033** — `31.01`: S&P 500 GFC recovery duration corrected from "over four years" to "~5.5 years (March 2013)" in the ASCII diagram, Key Takeaways, and Revision Notes (3 instances).
+  - **FACT-034** — `31.06`: H1 title corrected to "Adani Group–Hindenburg Report Episode (January 2023)" to match its actual content. The underlying filename was deliberately left unchanged to avoid breaking existing links; the new title was then propagated to every file that displayed the old one: `KNOWLEDGE_GRAPH.md`, `INDEX.md`, `ASSET_PLAN.md`, `STUDY_PLAN_365_DAY.md` (4 occurrences), `CURRICULUM.md`, `docs/31_Case_Studies/_Index.md`, `31.05`'s body text and Next Lesson link, and `MASTER_SKILL.md`'s own example citation.
+  - **Editorial artifact** — `28.08`: removed a stray "MASTER_SKILL.md" text leak from body prose.
+- **Not fixed in this pass:** Medium-confidence-and-below findings (FACT-001,
+  FACT-003, FACT-005–021 except those above, FACT-023, FACT-026, FACT-030)
+  remain open, along with AUDIT-041 (a related but distinct SEBI Act timing
+  issue in `31.03`) — deferred to a future remediation pass, per the
+  explicit "High confidence findings first" scope of this batch.
+- Updated `FACT_CHECK_REPORT.md` and `AUDIT_REPORT.md` with remediation-status
+  notes marking which findings are now fixed vs. still open, so both reports
+  stay accurate rather than becoming stale historical snapshots.
+- Validated: all touched files re-checked for broken links/citations (zero
+  found), all remain within the 2,000-line cap (largest touched file:
+  `KNOWLEDGE_GRAPH.md` at 1,999 lines, unchanged by this pass).
+
 ### 2026-08-07 — Added FACT_CHECK_REPORT.md: Chief Technical Editor content review
 - Added `FACT_CHECK_REPORT.md` — a factual review of all 270 core lessons
   for incorrect statements, outdated information, oversimplified

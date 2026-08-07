@@ -21,7 +21,7 @@ throughout Modules 01-30 each event illustrates.
 | 31.03 | [Harshad Mehta Scam (1992) and Indian Market Reform](31.03_Harshad_Mehta_Scam_1992.md) | ✅ |
 | 31.04 | [Ketan Parekh Scam (2001)](31.04_Ketan_Parekh_Scam_2001.md) | ✅ |
 | 31.05 | [2004 Indian Election Result Crash](31.05_2004_Indian_Election_Result_Crash.md) | ✅ |
-| 31.06 | [May 2022 IndusInd Bank / Adani Group Episodes](31.06_May_2022_IndusInd_Bank_Adani_Group_Episodes.md) | ✅ |
+| 31.06 | [Adani Group–Hindenburg Report Episode (January 2023)](31.06_May_2022_IndusInd_Bank_Adani_Group_Episodes.md) | ✅ |
 | 31.07 | [GameStop Short Squeeze (2021)](31.07_GameStop_Short_Squeeze_2021.md) | ✅ |
 | 31.08 | [Long-Term Capital Management Collapse (1998)](31.08_Long_Term_Capital_Management_Collapse_1998.md) | ✅ |
 | 31.09 | [Dot-Com Bubble (2000)](31.09_Dot_Com_Bubble_2000.md) | ✅ |

@@ -348,7 +348,7 @@ Each numbered item below will become one file:
 3. Harshad Mehta Scam (1992) and Indian Market Reform
 4. Ketan Parekh Scam (2001)
 5. 2004 Indian Election Result Crash
-6. May 2022 IndusInd Bank / Adani Group Episodes
+6. Adani Group–Hindenburg Report Episode (January 2023)
 7. GameStop Short Squeeze (2021)
 8. Long-Term Capital Management Collapse (1998)
 9. Dot-Com Bubble (2000)
