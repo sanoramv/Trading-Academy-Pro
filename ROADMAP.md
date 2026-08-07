@@ -99,6 +99,11 @@ progress table shows 100%.
   quality, homework quality), produced by eight independent reviewers.
   Overall average 7.79/10, no lesson scored below 5. Read-only — no
   lesson content was changed.
+- **2026-08-07:** All 16 lowest-scoring (5-6/10) `PEDAGOGICAL_REVIEW.md`
+  lessons fixed — mostly by adding a full worked numerical example where
+  the lesson previously stated a formula without computing it (see
+  `CHANGELOG.md` for the complete per-lesson list). `PEDAGOGICAL_REVIEW.md`
+  updated with a remediation-status note.
 
 ## Post-v1.0 — Maintenance Phase (ongoing)
 As of 2026-08-05, the repository is in **maintenance mode**: the

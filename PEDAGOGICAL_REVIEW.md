@@ -1,9 +1,24 @@
 # PEDAGOGICAL_REVIEW.md — Instructional Design Review
 
-> **Read-only review.** This file evaluates every existing lesson as an
-> instructional designer would; it does not modify any lesson content.
-> Scores and recommendations below are inputs to a future improvement pass,
-> not applied changes.
+> This file evaluates every existing lesson as an instructional designer
+> would. It was originally read-only; see **Remediation Status** below for
+> what has since been fixed. Scores were not re-run after fixes — they
+> describe the lessons as they stood at review time, so a lesson's listed
+> score may now understate its current quality where a fix was applied.
+
+## Remediation Status (2026-08-07)
+
+All **16 lessons scoring 5-6/10** (the full Lowest-Scoring list from this
+review) have been **fixed** — each received the specific improvement this
+review recommended: `07.06`, `08.09`, `09.03`, `09.04`, `12.03`, `15.03`,
+`16.02`, `17.03`, `20.06`, `20.07`, `20.09`, `23.01`, `25.06`, `27.03`,
+`29.07`, `30.02`. Most fixes added a full worked numerical example where
+the lesson previously stated a formula or concept without computing it —
+directly addressing this review's "worked numerical examples are the
+biggest differentiator" cross-cutting pattern. See `CHANGELOG.md`'s
+2026-08-07 fix entry for the complete list and what changed in each file.
+Lessons scoring 7-8 remain open for a future pass; the 43 exemplars at
+9/10 were left untouched, as intended.
 
 ## Methodology
 

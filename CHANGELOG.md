@@ -5,6 +5,69 @@ Format loosely follows [Keep a Changelog](https://keepachangelog.com/).
 
 ## [Unreleased]
 
+### 2026-08-07 — Fixed all 16 lowest-scoring (5-6/10) PEDAGOGICAL_REVIEW.md lessons
+- Applied the specific recommended improvement to every lesson
+  `PEDAGOGICAL_REVIEW.md` scored 5-6/10:
+  - **`07.06`** Revenue Recognition — split channel stuffing, related-party
+    transactions, and mark-to-market misuse into three separate
+    sub-explanations, each with its own concrete numeric mini-example.
+  - **`08.09`** Industry/Sector Analysis — added a Five-Forces-in-Practice
+    table giving each Porter's Force its own distinct, concrete
+    illustration instead of one combined airline narrative.
+  - **`09.03`** DCF Fundamentals (was the lowest score, 5/10) — added a
+    complete worked 3-year DCF (FCF projection, discounting, terminal
+    value, summed to a per-share estimate) before homework requires
+    replicating it.
+  - **`09.04`** Dividend Discount Model — added a plugged-in Gordon Growth
+    calculation (D1=Rs 20, r=12%, g=6% -> Rs 333/share) plus a
+    demonstration of the g<r constraint's sensitivity.
+  - **`12.03`** Triple Top/Bottom — restructured to lead with the
+    rarity-vs-reliability trade-off (the lesson's one genuinely new idea)
+    and cut confirmation-mechanics exposition already covered in `12.02`.
+  - **`15.03`** Profile Shapes — added three realistic, letter-by-letter
+    TPO profile examples (Normal/Trend/P-shape) for genuine visual
+    pattern-recognition practice, beyond the existing idealized outlines.
+  - **`16.02`** Volume Profile POC — added a worked example showing a
+    concrete case where TPO-based and Volume-based POC genuinely disagree
+    for the same session, sharpening the differentiation from `15.02`.
+  - **`17.03`** Accumulation Schematic — added a fully-annotated,
+    phase-by-phase worked chart (all 7 named events with illustrative
+    dates/prices) before homework assigns independent real-chart labeling.
+  - **`20.06`** Rollover Mechanics — added a worked rollover-cost
+    calculation (basis difference x lot size + transaction costs).
+  - **`20.07`** Index vs Stock Futures — added a scenario-based quiz
+    question requiring settlement-type identification, not recall.
+  - **`20.09`** Speculation with Futures — added a worked loss table for a
+    short futures position across five rising price points, plus a
+    matching homework calculation, making "unlimited loss" concrete.
+  - **`23.01`** What Is Volatility — added a full historical-volatility
+    calculation from 6 daily returns (mean -> variance -> SD ->
+    annualized), and removed a stray leftover editorial note-to-self
+    that had been left in the published lesson.
+  - **`25.06`** Correlation Risk — removed the disclaimed portfolio-variance
+    formula entirely; replaced with a fully worked numeric clustering
+    example (5 positions, 2 clusters) requiring only addition.
+  - **`27.03`** Modern Portfolio Theory — added a full two-asset portfolio
+    variance calculation showing the actual diversification benefit
+    (12.45% vs. a naive 15% weighted-average volatility), plus a matching
+    homework problem.
+  - **`29.07`** Algo Trading Regulations — replaced vague "recent
+    framework" language with a dated, year-level regulatory timeline
+    (2008, 2011-2013, 2018, 2021-2022, 2025).
+  - **`30.02`** Statistical Foundations — added a full mean/variance/SD
+    calculation from 5 daily returns, tying the result explicitly back to
+    `23.01`'s "historical volatility."
+- All worked examples independently re-verified arithmetically during
+  authoring (every intermediate step recomputed, not just the final
+  answer) before being written into the lesson files.
+- Updated `PEDAGOGICAL_REVIEW.md` with a remediation-status note; scores
+  were intentionally *not* re-run, so the file's listed scores describe
+  pre-fix state (documented explicitly to avoid the file becoming
+  misleading).
+- Validated: all 16 files re-checked for broken links, missing citations,
+  and duplicate section headers (zero found); all remain well within the
+  2,000-line cap (largest touched file: `15.03` at 354 lines).
+
 ### 2026-08-07 — Added PEDAGOGICAL_REVIEW.md: instructional-design review of all 270 lessons
 - Added `PEDAGOGICAL_REVIEW.md` — every core lesson (Modules 01-31) scored
   1-10 on 8 pedagogical dimensions (intuitiveness, example sufficiency,
