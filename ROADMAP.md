@@ -90,6 +90,15 @@ progress table shows 100%.
   caveats), each with exact sentence, corrected version, and confidence
   level. Confirms and deepens 5 items the 2026-08-05 audit only flagged
   briefly. Read-only — no lesson content was changed.
+- **2026-08-07:** All 14 High-confidence `FACT_CHECK_REPORT.md` findings
+  fixed across 12 lesson files (see `CHANGELOG.md` for the full list).
+  Both reports updated with remediation-status notes.
+- **2026-08-07:** `PEDAGOGICAL_REVIEW.md` added — an instructional-design
+  review scoring all 270 core lessons 1-10 across 8 pedagogical dimensions
+  (intuitiveness, examples, analogies, length, beginner overload, quiz
+  quality, homework quality), produced by eight independent reviewers.
+  Overall average 7.79/10, no lesson scored below 5. Read-only — no
+  lesson content was changed.
 
 ## Post-v1.0 — Maintenance Phase (ongoing)
 As of 2026-08-05, the repository is in **maintenance mode**: the

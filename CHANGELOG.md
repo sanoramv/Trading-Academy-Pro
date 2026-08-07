@@ -5,6 +5,33 @@ Format loosely follows [Keep a Changelog](https://keepachangelog.com/).
 
 ## [Unreleased]
 
+### 2026-08-07 — Added PEDAGOGICAL_REVIEW.md: instructional-design review of all 270 lessons
+- Added `PEDAGOGICAL_REVIEW.md` — every core lesson (Modules 01-31) scored
+  1-10 on 8 pedagogical dimensions (intuitiveness, example sufficiency,
+  analogy effectiveness, length, beginner overload, quiz quality, homework
+  meaningfulness), with a specific recommended improvement per lesson.
+- Produced by 8 independent reviewers (one per module cluster, same
+  clusters used for the fact-check pass), each blind to the others' work,
+  instructed not to rubber-stamp every lesson — resulting distribution:
+  overall average 7.79/10, 1 lesson at 5/10, 15 at 6/10, 66 at 7/10, 145 at
+  8/10, 43 at 9/10, none below 5 or at 10.
+- A "Cross-Cutting Patterns" section synthesizes themes multiple blind
+  reviewers independently rediscovered: quizzes test recall over
+  application curriculum-wide (flagged by all 8 reviewers independently);
+  worked numerical examples are the biggest quality differentiator in
+  math-heavy lessons; real historical events outperform hypothetical
+  examples; a handful of lesson-pairs are structurally redundant
+  (`02.01`/`02.02`, `12.02`/`12.03`, `25.01-02`/`26.01-02`); beginner
+  overload concentrates in ~6 identifiable lessons, not diffusely; Trading
+  Psychology (Module 28) defied its a-priori "motivational poster" risk
+  and scored highest of any module (8.63).
+- Global Exemplars (43 lessons at 9/10) and Lowest-Scoring (16 lessons at
+  5-6/10) tables extracted for quick reference.
+- Read-only, as instructed — no lesson files were modified.
+- Validated: all 270 lessons appear exactly once across the per-module
+  tables, all file links resolve, all table rows well-formed. File is 710
+  lines — well within the 2,000-line cap.
+
 ### 2026-08-07 — Fixed all 14 High-confidence FACT_CHECK_REPORT.md findings
 - Corrected 14 High-confidence factual issues across 12 lesson files, plus
   one non-categorized editorial artifact, all identified by the same-day
